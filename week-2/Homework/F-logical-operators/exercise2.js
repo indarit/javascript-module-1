@@ -5,8 +5,21 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(nun) {
+if (num < 0) {
+    return true;
+  }
+return false;
+ 
+}
 
+function isBetween5and10(nun) {
+if (num > 5 && <= 10) {
+    return true;
+  }
+return false;
+ 
+}
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
