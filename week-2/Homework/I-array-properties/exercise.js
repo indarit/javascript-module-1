@@ -5,9 +5,15 @@
 
 */
 
-function isEmpty(arr) {
-  return; // complete this statement
+function isEmpty (arreglo) {
+ if (arreglo.length === 0){
+  return true;
+} else { 
+  return false;
 }
+
+}
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
