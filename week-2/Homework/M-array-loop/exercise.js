@@ -13,3 +13,7 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+let letra="T"
+const result = daysOfWeek.filter(daysOfWeek => daysOfWeek.startsWith(letra));
+
+console.log(result);
