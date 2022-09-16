@@ -8,7 +8,13 @@
   Hint: Google how to check if a string contains a word
 */
 
+const word = 'code';
 function containsCode(sentence) {
+if (sentence.includes(word)) {
+  return true;
+} else false;
+
+// expected output: "The word "fox" is in the sentence"
 
 }
 
