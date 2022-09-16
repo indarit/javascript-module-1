@@ -5,21 +5,38 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative(nun) {
+function isNegative(num) {
 if (num < 0) {
     return true;
   }
-return false;
- 
+  return false;
 }
-
-function isBetween5and10(nun) {
-if (num > 5 && <= 10) {
+/*function satisfiesRequirements(num) {
+  if (num > 3 && num < 10) {
     return true;
   }
-return false;
- 
+  return false;
+}*/
+function isBetween5and10(num) {
+  if (num >= 5 && num <= 10) {
+    return true;
+  }
+  return false;
 }
+function isShortName(name) {
+  if (name.length < 7) {
+    return true;
+  }
+  return false;
+  }
+function startsWithD(name) {
+  if (name.at(0) === "D") {
+    return true;
+  }
+  return false;
+}
+
+
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
