@@ -9,32 +9,17 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-function multiplos (number,multiple){
-  resto = number % multiple;
-    if(resto==0){
-    return true;
-    } else return false
+arr.forEach((array)=>{
+  if (array % 3 === 0 &&  array % 5 === 0){
+  console.log ("FizzBuzz");
+} else if (array % 5 === 0){
+  console.log ("Buzz");
+} else if (array % 3 ===0){
+  console.log ("Fizz");
+} else {
+  console.log(array);
 }
-
-function multiplo(){
-  let inicial=0;
-  for (let i = 15; i > inicial; i--){
-    let mult3=multiplos(i, 3);
-    let mult5=multiplos(i, 5);
-    if (mult3 && mult5){
-      console.log('FizzBuzz');
-    }else if (mult3){
-      console.log('Fizz');
-    }else if(mult5){
-      console.log('Buzz');
-    }
-
-  }
-}
-
- let array=arr.forEach(multiplo);
-
-
+})
 
     
 /* EXPECTED OUTPUT */
